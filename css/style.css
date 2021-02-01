@@ -29,7 +29,7 @@ section{
 }
 .sticky{
     position:sticky;
-    top: 0px;
+    top: 62px;
     left: 50px;
     width: 250px;
     height: 50px;
@@ -38,4 +38,15 @@ section{
     font-size: 20px;
     z-index: 0; 
   
+}
+.pos-text{
+    position: absolute;
+    top:0px;
+    left: 50px;
+    color: white;
+    background-color: blue;
+    font-size: 30px;
+}
+.relative{
+    position: relative;
 }
